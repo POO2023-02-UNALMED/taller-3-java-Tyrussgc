@@ -20,9 +20,9 @@ public class TV {
   public Marca getMarca() {
 	  return marca;
   }
-  public Marca setMarca() {
-	  return marca;
-  }
+  public void setMarca(Marca marca) {
+	    this.marca = marca;
+	}
   public void setCanal(int canal) {
       if (estado && canal >= 1 && canal <= 120) {
           this.canal = canal;
